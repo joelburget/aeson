@@ -12,6 +12,7 @@ module UnitTests
     (
       ioTests
     , tests
+    , smf
     ) where
 
 import Prelude ()

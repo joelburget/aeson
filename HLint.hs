@@ -1,4 +1,4 @@
-module HLint.HLint where
+module HLint.HLint (module HLint.HLint) where
 
 import "hint" HLint.Default
 import "hint" HLint.Builtin.All
@@ -8,3 +8,4 @@ ignore "Avoid lambda"
 ignore "Eta reduce"
 ignore "Functor law"
 ignore "Use >=>"
+ignore "Use fmap"
